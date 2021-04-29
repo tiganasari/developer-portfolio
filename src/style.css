@@ -12,7 +12,8 @@ header {
 }
 
 .title,
-.aboutTitle {
+.aboutTitle,
+.projectTitle {
   padding: 60px 100px;
   letter-spacing: 1.6px;
   margin-bottom: 20px;
@@ -41,9 +42,23 @@ header {
   padding: 40px 0;
 }
 
+.projectDesc {
+  padding-bottom: 10px;
+}
 .images {
   margin-top: 40px;
 }
+
+.projectText {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 1.2px;
+  padding: 20px 40px;
+}
+.textProject {
+  font-size: 24px;
+}
+
 @media (max-width: 576px) {
   .title {
     padding: 40px;
@@ -63,7 +78,8 @@ header {
   }
 
   .aboutPara {
-    font-size: 18px;
+    font-size: 14px;
+    margin-right: -40px;
   }
 
   .image2,
@@ -75,8 +91,24 @@ header {
   }
 }
 
+.projectImage {
+  padding: 0 30px 30px 30px;
+}
+
+.projectRow {
+  margin-top: 40px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
 @media (min-width: 577px) {
   .navbar-brand {
     padding-left: 60px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .projectImage {
+    padding: 0;
   }
 }
