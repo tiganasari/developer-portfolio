@@ -16,9 +16,10 @@ header {
 .projectTitle {
   padding: 60px 100px;
   letter-spacing: 1.6px;
-  margin-bottom: 20px;
 }
-
+.projectTitle {
+  padding-bottom: 0;
+}
 .welcome {
   color: rgb(230, 230, 230);
   font-size: 40px;
@@ -49,12 +50,6 @@ header {
   margin-top: 40px;
 }
 
-.projectText {
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: 1.2px;
-  padding: 20px 40px;
-}
 .textProject {
   font-size: 24px;
 }
@@ -72,7 +67,8 @@ header {
     margin-left: 0px;
   }
 
-  .aboutTitle {
+  .aboutTitle,
+  .projectTitle {
     font-size: 15px;
     margin-left: -60px;
   }
@@ -98,9 +94,15 @@ header {
 .projectRow {
   margin-top: 40px;
   padding-top: 20px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
+.projectText {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 1.2px;
+  padding: 20px 40px;
+}
 @media (min-width: 577px) {
   .navbar-brand {
     padding-left: 60px;
