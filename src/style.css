@@ -42,7 +42,7 @@ header {
 }
 
 .images {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 @media (max-width: 576px) {
   .title {
@@ -55,6 +55,23 @@ header {
 
   .navbar-collapse {
     margin-left: 0px;
+  }
+
+  .aboutTitle {
+    font-size: 15px;
+    margin-left: -60px;
+  }
+
+  .aboutPara {
+    font-size: 18px;
+  }
+
+  .image2,
+  .image3 {
+    display: none;
+  }
+  .image1 {
+    padding-left: 60px;
   }
 }
 
